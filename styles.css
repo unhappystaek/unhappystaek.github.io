@@ -1,0 +1,35 @@
+body
+{
+padding: 0;
+margin: 0;
+background-color: #F6F6F3;
+}
+
+#navbar
+{
+    position: sticky;
+    top: 0px;
+    width: 100vw;
+    height: 15vh;
+    background-color: #555125;
+}
+
+#navlogo
+{
+    height: 13vh;
+    width: 13vh;
+    margin-top: 1vh;
+    margin-left: 2vh;
+    float: left;
+}
+
+#navtext
+{
+    color: #131301;
+    font-size: 11vh;
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+    margin-left: 4vh;
+    float: left;
+    text-align: left;
+}
