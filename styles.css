@@ -1,13 +1,13 @@
 body
 {
-padding: 0;
-margin: 0;
-background-color: #F6F6F3;
+    padding: 0;
+    margin: 0;
+    background-color: #F6F6F3;
 }
 
 #navbar
 {
-    position: sticky;
+    position: fixed;
     top: 0px;
     width: 100vw;
     height: 15vh;
@@ -19,7 +19,7 @@ background-color: #F6F6F3;
     height: 13vh;
     width: 13vh;
     margin-top: 1vh;
-    margin-left: 2vh;
+    margin-left: 3vh;
     float: left;
 }
 
@@ -32,4 +32,65 @@ background-color: #F6F6F3;
     margin-left: 4vh;
     float: left;
     text-align: left;
+}
+
+#hamburger {
+    fill: #131301;
+    height: 10vh;
+    width: 10vh;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+    margin-right: 6vh;
+    cursor: pointer;
+    float: right;
+  }
+  
+#sidebar {
+    width: 0px;
+    height: 100vh;
+    background-color: #F6F6F3;
+    position: fixed;
+    top: 0;
+    left: 100vw;
+    z-index: 2;
+    overflow: hidden;
+    transition: width 0.3s ease;
+    transition: left 0.3s ease;
+
+    white-space: nowrap;
+    float: right;
+
+    
+}
+  
+.sidebar-item {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    padding: 3vh;
+    align-items: center;
+    cursor: pointer;
+    font-size: 2vh;
+}
+.sidebar-item:hover {
+    background-color: #cecece;
+}
+  
+.sidebar-item > div {
+    padding: 0 1em;
+}
+  
+.sidebar-item svg {
+    flex-shrink: 0;
+}
+  
+#overlay {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
 }
