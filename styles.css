@@ -21,10 +21,17 @@ body
 
 .aboutUs
 {
-    width: 99.1vw;
-    height: 60vh;
+    width: 79.1vw;
+    height: 45vh;
     text-align: center;
     margin-top: 10vh;
+    margin-left: 20vw;
+}
+
+.svg
+{
+    height: 6vh;
+    width: 6vh;
 }
 
 #Klimczok
@@ -38,14 +45,39 @@ body
     margin-left: 25vw;
 }
 
+#who
+{
+    font-size: 7vh;
+    width: 59.1vw;
+}
+
 .row
 {
-    
+    float: left;
+    justify-content: space-evenly;
+    margin-left: 8vw;
+}
+
+#are
+{
+    width: 59.1vw;
+    font-size: 3vh;
+    margin-top: 7vh;
+}
+
+.segments
+{
+    width: 99.1vw;
+    height: 20vh;
+    margin-top: 10vh;
+    margin-bottom: 40vh;
 }
 
 .bite
 {
-    float: left;
+    margin-top: 10vh;
+    text-align: center;
+    font-size: 2vh;
 }
 
 
