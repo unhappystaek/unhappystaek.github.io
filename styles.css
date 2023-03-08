@@ -14,6 +14,34 @@ body
     background-color: #555125;
 }
 
+#campGreen
+{
+    width: 39.1vw;
+    margin-left: 30vw;
+    margin-top: 10vh;
+}
+
+#documentsMain
+{
+    margin-top: 10vh;
+    border-color: #131301;
+    border-radius: 1px;
+    border-width: 1px;
+    font-size: 3vh;
+    width: 49.1vw;
+    margin-left: 50vw;
+    text-align: center;
+    height: 30vh;
+}
+
+.documentItem
+{
+    margin-bottom: 5vh;
+    text-align: center;
+    text-decoration: none;
+    color:#131301;
+}
+
 .spacer
 {
     height: 14vh;

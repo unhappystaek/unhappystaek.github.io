@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SGP Wilki</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <div id="navbar">
+            <img id="navlogo" onclick="location.href='index.html';" src="Wilk1.png">
+            <div id="navtext" onclick="location.href='index.html';">SGP Wilki</div>
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                id="hamburger"
+            >
+             <path d="M0 0h24v24H0z" fill="none" />
+             <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+           </svg>
+        </div>
+        <div id="overlay"></div>
+        <div id="sidebar">
+            <a href="index.html" class="sidebar-item">
+                <div>O Nas</div>
+            </a>
+            <a href="Meetings.html" class="sidebar-item">
+                <div>Najbliższe Zbiórki</div>
+            </a>
+            <a href="Documents.html" class="sidebar-item">
+                <div>Dokumenty Do Pobrania</div>
+            </a>
+            <a href="Camp.html" class="sidebar-item">
+                <div>Obóz Proobronny</div>
+            </a>
+        </div>
+        <div class="content">
+            <div class="spacer"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
