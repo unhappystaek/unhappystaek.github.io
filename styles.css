@@ -23,23 +23,38 @@ body
 
 #documentsMain
 {
-    margin-top: 10vh;
-    border-color: #131301;
-    border-radius: 1px;
-    border-width: 1px;
+    margin-top: 13vh;
     font-size: 3vh;
     width: 49.1vw;
-    margin-left: 50vw;
+    margin-left: 47vw;
     text-align: center;
-    height: 30vh;
+    height: 40vh;
 }
 
 .documentItem
 {
-    margin-bottom: 5vh;
     text-align: center;
     text-decoration: none;
     color:#131301;
+    
+}
+
+.documentDiv
+{
+    margin-bottom: 1.5vh;
+}
+
+#delegacjaPic
+{
+    position: absolute;
+    top: 25vh;
+    left: 7vw;
+    height: 60vh
+}
+
+#delegacjaImg
+{
+    height: 60vh
 }
 
 .spacer
