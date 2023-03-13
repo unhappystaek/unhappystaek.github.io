@@ -3,13 +3,21 @@ const sidebar = document.getElementById('sidebar')
 const overlay = document.getElementById('overlay')
 
 let menuOpen = false
+let AWidth
 
 function openMenu() {
-  menuOpen = true
-  overlay.style.display = 'block'
-  sidebar.style.width = '80vw'
-  sidebar.style.left = '80vw'
-
+  if ((window.screen.width / window.screen.height) <= 1){
+    menuOpen = true
+    overlay.style.display = 'block'
+    sidebar.style.width = '80vw'
+    sidebar.style.left = '20vw'
+  } else {
+    menuOpen = true
+    overlay.style.display = 'block'
+    sidebar.style.width = '20vw'
+    sidebar.style.left = '80vw'
+  }
+    
 }
 
 function closeMenu() {
@@ -32,3 +40,8 @@ overlay.addEventListener('click', function () {
     closeMenu()
   }
 })
+
+
+//window.screen.width.addEventListener('input', function() {
+  //AWidth = window.screen.width
+//})

@@ -236,5 +236,9 @@ body
     {
         height: 11vh;
     }
+    .sidebar-item
+    {
+        font-size: 4vw;
+    }
 
 }
