@@ -42,6 +42,13 @@ body
 .documentDiv
 {
     margin-bottom: 1.5vh;
+    width: 15vw;
+    margin-left: 20vw;
+}
+
+.documentDiv:hover
+{
+    background-color: #cecece;
 }
 
 #delegacjaPic
@@ -203,4 +210,31 @@ body
     left: 0;
     z-index: 1;
     display: none;
+}
+
+@media (max-aspect-ratio: 1/1) {
+    #navtext
+    {
+      font-size: 6vh;
+      margin-left: 5vw;
+      margin-top: 2vh;
+    }
+    #navlogo
+    {
+        height: 9vh;
+        width: 9vh;
+        margin-left: 2vw;
+        margin-top: 1vh;
+    }
+    #hamburger
+    {
+        height: 7vh;
+        width: 7vh;
+        margin-right: 3vw;
+    }
+    #navbar
+    {
+        height: 11vh;
+    }
+
 }
