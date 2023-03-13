@@ -6,17 +6,9 @@ let menuOpen = false
 let AWidth
 
 function openMenu() {
-  if ((window.screen.width / window.screen.height) <= 1){
-    menuOpen = true
-    overlay.style.display = 'block'
-    sidebar.style.width = '80vw'
-    sidebar.style.left = '20vw'
-  } else {
-    menuOpen = true
-    overlay.style.display = 'block'
-    sidebar.style.width = '20vw'
-    sidebar.style.left = '80vw'
-  }
+  menuOpen = true
+  overlay.style.display = 'block'
+  updateMenu()
     
 }
 
@@ -42,6 +34,16 @@ overlay.addEventListener('click', function () {
 })
 
 
-//window.screen.width.addEventListener('input', function() {
-  //AWidth = window.screen.width
-//})
+window.addEventListener("resize", function(event) {
+ updateMenu()
+})
+
+function updateMenu() {
+  if ((window.innerWidth / window.innerHeight) <= 4/3){
+    sidebar.style.width = '70vw'
+    sidebar.style.left = '30vw'
+  } else {
+    sidebar.style.width = '20vw'
+    sidebar.style.left = '80vw'
+  }
+}
